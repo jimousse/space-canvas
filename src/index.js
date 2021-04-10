@@ -16,7 +16,7 @@ offScreenCanvas.height = canvasHeight;
 
 // stars
 let stars = [];
-for(let i = 0; i < 300; i++) {
+for(let i = 0; i < 350; i++) {
   stars.push(new Star(bufferCtx, { width: canvasWidth, height: canvasHeight }));
 }
 

@@ -24,7 +24,7 @@ export default class ShootingStar {
         this.waitTime -= 1;
       // it's active so start timer
       } else {
-        this.waitTime = Math.floor(Math.random() * 500);
+        this.waitTime = Math.floor(Math.random() * 500) + 500;
         this.active = false;
       }
       
