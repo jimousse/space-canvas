@@ -2,8 +2,8 @@ export default class ShootingStar {
   constructor(context, { width, height }) {
     this.x = Math.random() * width;
     this.y = Math.random() * height;
-    this.speed = (Math.random() * 10) + 20;
-    this.len = (Math.random() * 80) + 20;
+    this.speed = (Math.random() * 10) + 50;
+    this.len = (Math.random() * 80) + 50;
     this.maxX = width;
     this.maxY = height;
     this.active = true;

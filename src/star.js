@@ -1,7 +1,7 @@
 export default class Star {
   constructor(context, { width, height }) {
     this.size = Math.random() + .5;
-    this.speed = 0.03;
+    this.speed = 0.1;
     this.maxX = width;
     this.maxY = height;
     this.context = context;
