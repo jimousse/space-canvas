@@ -22,7 +22,7 @@ for(let i = 0; i < 300; i++) {
 
 // shooting stars
 let shootingStars = [];
-for(let i = 0; i < 5; i++) {
+for(let i = 0; i < 2; i++) {
   shootingStars.push(new ShootingStar(bufferCtx, { width: canvasWidth, height: canvasHeight }));
 }
 
